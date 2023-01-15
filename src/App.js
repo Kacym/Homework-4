@@ -6,7 +6,7 @@ import { Expenses } from "./component/expenses/Expenses";
 function App() {
   const [expenses, setExpenses] = useState([
     {
-      title: "Книга",
+      title: "Зарядник",
       price: 300,
       date: new Date().getDate().toString(),
     },
